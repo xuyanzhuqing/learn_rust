@@ -1,3 +1,7 @@
 {
-  "explorer.sortOrder": "modified"
+  "explorer.sortOrder": "modified",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
+  }
 }
