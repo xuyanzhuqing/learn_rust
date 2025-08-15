@@ -1,4 +1,4 @@
 [workspace]
 members = [ "controlFlow", "functions",
-  "guess_number", "ownership", "util", "variable",
+  "guess_number", "ownership", "ownership_slice", "util", "variable",
 ]
