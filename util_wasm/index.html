@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rust wasm Hello world</title>
+  <script type="module" src="./pkg//util_wasm.js"></script>
+  <script type="module">
+    import init, { add } from './pkg/util_wasm.js'
+    init().then(() => {
+      const result = add(100n, 200n);
+      console.log("the result is " + result);
+    })
+  </script>
+  <style>
+    body {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  rust to wasm<br>
+  <code>wasm-pack build --target web</code>
+</body>
+</html>
