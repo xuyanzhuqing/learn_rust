@@ -110,7 +110,6 @@ fn main() {
                 let m = Message::Write(String::from("hello world"));
                 m.call();
             }),
-            Box::new(|| {}),
         ],
         None,
     );
