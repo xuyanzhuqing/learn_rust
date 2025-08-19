@@ -1,0 +1,7 @@
+[package]
+name = "project"
+version = "0.1.0"
+edition = "2024"
+default-run = "project" #设置此项，可在有多个可执行文件的时候，默认执行指定 bin 等同于 cargo run -p project --bin=project
+
+[dependencies]
