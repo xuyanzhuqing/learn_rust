@@ -17,6 +17,7 @@ fn main() {
                 v.push(2);
                 // <--- 离开作用域时序列被丢弃
             }),
+            // 根据索引获取元素
             Box::new(|| {
                 let v = vec![1, 2, 3, 4];
                 let index: usize = 2;
