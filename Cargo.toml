@@ -1,4 +1,4 @@
 [workspace]
-members = [ "collect", "controlFlow", "enums", "exception", "functions",
+members = [ "collect", "controlFlow", "enums", "exception", "functions", "generics",
   "guess_number", "matches", "ownership", "ownership_slice", "project", "structor", "util", "util_wasm", "variable",
 ]
