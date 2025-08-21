@@ -1,0 +1,11 @@
+[package]
+name = "exception"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+util = { path = "../util" }
+
+[profile.release]
+# panic = "unwind" # 默认模式，遇到 panic 时由rust 清理数据
+panic = "abort" # 直接退出，由操作系统清理数据
